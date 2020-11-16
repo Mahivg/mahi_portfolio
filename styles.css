@@ -364,6 +364,16 @@ ul li {
   background-color: #333;
 }
 
+.skills .skills-container .techs .skill-bar.vue:before {
+  content: "";
+  position: absolute;
+  transition: width 0.3s 0.7s ease-in;
+  height: 10px;
+  width: 60%;
+  border-radius: 8px;
+  background-color: #333;
+}
+
 /* Experience Styling */
 .experience .experience-container {
   margin: 0 10rem;
