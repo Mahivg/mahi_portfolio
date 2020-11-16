@@ -4,10 +4,11 @@
   "description": "Magesh Portfolio",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Magesh.V.G",
   "license": "ISC",
+  "homepage" : "https://mahivg.github.io/mahi_portfolio",
   "devDependencies": {
     "fancy-log": "^1.3.3",
     "gulp": "^4.0.2",
