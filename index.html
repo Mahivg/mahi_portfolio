@@ -3,163 +3,402 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="telephone=no" />
     <title>Magesh.V.G</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    /> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
-    
+    <!-- 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
     <link rel="stylesheet" href="./styles.min.css" />
+    <script src="./scripts.min.js" defer></script>
   </head>
   <body>
     <!-- Navigation-->
     <nav class="navbar">
-      <a href="#">Magesh <span>V G</span></a>
-      <ul class="menu">
-        <li><a href="#home" class="menu-link">Home</a></li>
-        <li><a href="#about" class="menu-link">About</a></li>        
+      <a href="#" class="title"> < Magesh <span>V G</span> /></a>
+      <ul id="menu" class="menu">
+        <li><a href="#intro" class="menu-link">Home</a></li>
+        <li><a href="#about_me" class="menu-link">About</a></li>
         <li><a href="#skills" class="menu-link">Skills</a></li>
         <li><a href="#experience" class="menu-link">Experience</a></li>
         <li><a href="#contact" class="menu-link">Contact</a></li>
-      </ul>
-      <div class="menu-bar">
+      </ul>      
+      <div id="menu-bar" class="menu-bar">
         <i class="fa fa-bars"></i>
       </div>
     </nav>
 
-    <!-- home content starts -->
-    <section class="home" id="home">
-      <div class="home-container">
-        <div class="info">
-          <div class="title">Hello, </div>
-          <div class="name">I'm Magesh <span>V G</span></div>
-          <div class="sub-title">I am a <span> Software Developer </span></div>
-          <a href="#about" class="btn-link">Read More 
-            <i class="fa fa-chevron-down"></i>
-          </a>
+    <section id="container">
+      <section id="intro" class="intro">
+        <div class="details">
+          <div class="title">Hey There,</div>
+          <div class="name">I'm Magesh</div>
+          <div class="sub-title">I am a <span id="role"> </span></div>
+          <div>
+            <a href="#about_me" class="vg-btn primary">
+              Read More
+              <i class="fa fa-chevron-down"></i>
+            </a>
+          </div>
         </div>
-        <div class="profile-pic">
-          <img src="./Mahi_1_W_B.jpg" alt="">
+        <div class="image">
+          <img
+            src="./assets/images/intro_developer.png"
+            alt="vecor_work"
+            srcset=""
+            class="intro_img"
+          />
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- About section starts -->
+      <section id="about_me" class="about_me">
+        <div class="about-container">
+          <div class="about-left">
+            <div class="section__header">
+              <span class="t1"> Discover </span>
+              <h3>About me</h3>
+            </div>
+            <p>
+              Hi There! I'm Magesh. Passionate Full stack web developer having
+              specialization in Front end and Back end development. I have 7
+              years of experience in building web based applications.
+            </p>
+            <p class="mt-1">
+              I've developed a strong passion for the software development
+              over the years and love what I do. I'm always looking to
+              improve my skill set and provide value to the work.
+            </p>
+            <div>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://github.com/Mahivg/" target="_blank"
+                    ><i class="fab fa fa-github" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/magesh-v-g-9a8bb588/" target="_blank"
+                    ><i class="fab fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/magesh.vg/" target="_blank"
+                    ><i class="fab fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/magesh_vg/" target="_blank"
+                    ><i class="fab fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="tel:+91-9566824544 target="_blank"
+                    ><i class="fab fa fa-phone" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="cv-div">
+              <button id="downloadCV" type="button" class="vg-btn primary mt-1">
+                Download Resume
+                <i class="fa fa-download"></i>
+              </button>
+            </div>
+          </div>
+          <div class="about-right">
+            <img
+              src="./assets/images/Mahi_1.jpg"
+              alt="Magesh_VG_Profile_picture"
+              class="intro_img"
+            />
+          </div>
+        </div>
+      </section>
 
-    <section class="about" id="about">
-      <div class="title">
-        About Me
-      </div>
-      <div class="about-container">
-        <div class="profile-pic">          
-          <img src="./Mahi_1_W_B.jpg" alt="">
-        </div>
-        <div class="self-intro">
-          <div class="self-info">
-            Let Me Introduce Myself
+      <section id="skills" class="skills">
+        <div class="skills-container">
+          <div class="section__header">
+            <span class="t1"> Tech </span>
+            <h3>Skills</h3>
           </div>
-          <p>Enthusiastic Application Developer having 5 years of experience as Full stack developer with strong Object-Oriented Programming concepts, Specialty in product development and analytical skills will be useful in the delivery of products which meet user needs.</p>
-          <p>Experienced Software Engineer with a demonstrated history of working in the computer software industry. Skilled in Research, Analytical Skills, Strategic Thinking, Progressive Thinking, and Leadership. Strong engineering professional with a Bachelor of Technology - BTech focused in Information Technology under Anna university.</p>          
-          <a href="./Magesh.V.G_CV.docx" download="Mageshvg_CV.docx" target="_blank"> Download CV</a>
+          <div class="tech-skills">
+            <h3>Front-end</h3>
+            <div class="skill-set">
+              <div class="skill-item">
+                <img src="./assets/images/web_dev.png" />
+                <p>HTML5, CSS3</p>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/images/js_6.png" />
+                <p>Javascript</p>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/images/ts.png" />
+                <p>Typescript</p>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/images/angular-logo.png" />
+                <p>Angular</p>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/images/react_js.png" />
+                <p>React</p>
+              </div>
+            </div>
+          </div>
+          <div class="tech-skills">
+            <h3>Back-end</h3>
+            <div class="skill-set">
+              <div class="skill-item">
+                <img src="./assets/images/java.png" />
+                <p>Java</p>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/images/java_spring.png" />
+                <p>Spring Boot</p>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/images/node_js.png" />
+                <p>Nodejs</p>
+              </div>
+            </div>
+          </div>
+          <div class="tech-skills">
+            <h3>Cloud</h3>
+            <div class="skill-set">
+              <div class="skill-item">
+                <img src="./assets/images/mongo_db.png" />
+                <p>Spring cloud</p>
+              </div>
+              <div class="skill-item">
+                <img src="./assets/images/aws.png" />
+                <p>AWS</p>
+                <a
+                  href="https://www.credly.com/badges/738e4a4f-23fa-4b31-b5e1-715067452e06"
+                  target="_blank"
+                >
+                  <img
+                    class="info-img"
+                    title="View Certification"
+                    src="./assets/images/aws_certified.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="skills" class="skills">
-      <div class="title">Skills</div>
-      <div class="skills-container">
-        <div class="techs">
-          <div class="skill">
-            <span>HTML</span>
-            <span>90%</span>
-          </div>
-          <div class="skill-bar html"></div>
+      <section id="experience" class="experience">
+        <div class="section__header">
+          <span class="t1"> work </span>
+          <h3>Experience</h3>
         </div>
-        <div class="techs">
-          <div class="skill">
-            <span>CSS</span>
-            <span>85%</span>
-          </div>
-          <div class="skill-bar css"></div>
-        </div>
-        <div class="techs">
-          <div class="skill">
-            <span>Javascript</span>
-            <span>90%</span>
-          </div>
-          <div class="skill-bar js"></div>
-        </div>
-        <div class="techs">
-          <div class="skill">
-            <span>Angular</span>
-            <span>80%</span>
-          </div>
-          <div class="skill-bar angular"></div>
-        </div>
-        <div class="techs">
-          <div class="skill ">
-            <span>Java</span>
-            <span>85%</span>
-          </div>
-          <div class="skill-bar java"></div>
-        </div>
-        <div class="techs">
-          <div class="skill">
-            <span>Spring</span>
-            <span>75%</span>
-          </div>
-          <div class="skill-bar spring"></div>
-        </div>
-        <div class="techs">
-          <div class="skill">
-            <span>Node</span>
-            <span>70%</span>
-          </div>
-          <div class="skill-bar node"></div>
-        </div>
-        <div class="techs">
-          <div class="skill">
-            <span>Vue</span>
-            <span>60%</span>
-          </div>
-          <div class="skill-bar vue"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience Section Starts -->
-
-    <section class="experience" id="experience">
-      <div class="title">
-        Work Experience
-      </div>
-      <div class="experience-container">
-        <div class="timeline-container">
-          <div class="time-line">
-            <div class="work">
-              <span class="line"></span>
-              <div class="content">
-                <div class="company">
-                  <div class="name">Fidelity Investments</div> 
-                  <div class="designation"> - Software Engineer - IV</div>
+        <div class="experience-container">
+          <div class="timeline-container">
+            <div class="time-line">
+              <div class="work">
+                <span class="line"></span>
+                <div class="period">
+                  <span> * Present -</span>
+                  <span>2021 </span>
                 </div>
-                <div class="exp-info">
-                  <div class="title">Projects</div>
+                <div class="content">
+                  <div class="company">
+                    <div class="name">
+                      <span> Accenture Services Pvt Ltd </span>
+                      <span> - Hyderabad, India. </span>
+                    </div>
+                    <div class="designation">- Senior Software Engineer</div>
+                  </div>
+                  <div class="exp-info">
+                    <div class="title">Projects</div>
                     <div class="projects">
                       <div class="project">
-                        <div class="title">Health Savings Account</div>
-                        <div class="info">
-                         <p> HSA – Fidelity has been in the HSA business from 2006. HSA offered for DC clients in the mid-market and segments who signed up for a High Deductible health plan. HSA consists of three offering type like Self- Service, Standalone and guided. It is the leading-edge product for fidelity.</p>
-                         <p> FS-RA – Flexible spending account is an account used to pay for out-of-pocket medical expenses and is funded by the employee. Reimbursement account is an account used to pay for out-of-pocket medical expenses funded by employer. . The in-fight stacked card feature is the current industry demand for a simplified “one stop shop” debit card solution for all HSA and RA.</p>
-
+                        <div class="title-accordion">
+                          <p class="title">
+                            <span class="sub-title"> Client : </span>Clara
+                            Analytics, Inc.
+                          </p>
+                          <span> <i class="fa fa-chevron-down"></i></span>
                         </div>
-                        
+                        <div class="client-info">
+                          <p class="mb-1">
+                            Website :
+                            <a
+                              class="vg-link"
+                              target="_blank"
+                              href="https://claraanalytics.com/msp-compliance/"
+                            >
+                              Clara MSP
+                            </a>
+                          </p>
+                          <p>
+                            MSP - Medical Service Provider. Clara's module
+                            streamlines future medical cost projection report
+                            production from weeks to days, dramatically reducing
+                            the work and cost involved. It scans medical records
+                            for future medical recommendations, analyzes current
+                            medical treatment from payment data, and generates
+                            future medical cost projections, automatically
+                            compiling them into reports that meet CMS
+                            guidelines.
+                          </p>
+                        </div>
+                        <div class="handson-accordion">
+                          <p class="title">Hands-On</p>
+                          <span> <i class="fa fa-chevron-down"></i></span>
+                        </div>
+                        <div class="handson-info">
+                          <ul>
+                            <li>
+                              Implemented Authentication and Authorization using Angular routes and services.
+                            </li>
+                            <li>
+                              Active Team member of MSP module, implemented Cost estimation and CMS submission details.
+                            </li>
+                            <li>
+                              Led the team of three, converting Legacy spring application into AWS Lambda.
+                            </li>
+                            <li>
+                              Worked on file upload management, getting files from user and then files will be uploaded to AWS S3.
+                            </li>
+                            <li>
+                              Implemented AWS SQS message system where the computation of client medical records will be processed and sent as mail later on.
+                            </li>
+                            <li>
+                              Worked on fast paced Agile methodology with SCRUM
+                              to deliver rapid productivity in development with
+                              tools like JIRA.
+                            </li>
+                            <li>
+                            Worked on bootstrap css libraries.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <p class="title">Tech stack</p>
+                      <div class="skills">
+                        <ul>
+                          <li>Angular</li>
+                          <li>Java 1.8</li>
+                          <li>Spring Boot</li>
+                          <li>AWS Lambda</li>
+                          <li>Restful API</li>
+                          <li>JSON</li>
+                          <li>MySQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work">
+                <span class="line"></span>
+                <div class="period">
+                  <span>2021 - </span>
+                  <span>2018 </span>
+                </div>
+                <div class="content">
+                  <div class="company">
+                    <div class="name">
+                      <span> Fidelity Investments </span>
+                      <span> - Chennai, India. </span>
+                    </div>
+                    <div class="designation">- Software Engineer - IV</div>
+                  </div>
+                  <div class="exp-info">
+                    <div class="title">Projects</div>
+                    <div class="projects">
+                      <div class="project">
+                        <div class="title-accordion">
+                          <p class="title">
+                            <span class="sub-title"> Product : </span>Health
+                            Savings Account
+                          </p>
+                          <span> <i class="fa fa-chevron-down"></i></span>
+                        </div>
+                        <div class="client-info">
+                          <p class="mb-1">
+                            Website :
+                            <a
+                              class="vg-link"
+                              target="_blank"
+                              href="https://www.fidelity.com/go/hsa/why-hsa"
+                            >
+                              HSA
+                            </a>
+                          </p>
+                          <p>
+                            HSA - Health Saving Account is the user experience
+                            offered to the clients (employers like IBM etc.) to
+                            maintain their employees HSA and configure plans at
+                            client level for an employee to choose their
+                            contribution towards HSA for the plan year.
+                            Contribution in HSA can be invested into stocks and
+                            all the investments made and returns received were
+                            tax free and hence it is a Triple tax benefit for an
+                            employee in US.
+                          </p>
+                        </div>
+                        <div class="handson-accordion">
+                          <p class="title">Hands-On</p>
+                          <span> <i class="fa fa-chevron-down"></i></span>
+                        </div>
+                        <div class="handson-info">
+                          <ul>
+                            <li>
+                              Owned control of complete React UI Application
+                              where the customer interacts to update their plan
+                              details for three different types of offering
+                              users.
+                            </li>
+                            <li>
+                              Worked on developing REST APIs to maintain health
+                              expense and transactions in SPRING with Test
+                              driven development using code coverage.
+                            </li>
+                            <li>
+                              Implemented centralized error handling and
+                              integrated with SPLUNK log monitoring system to
+                              monitor the error logs.
+                            </li>
+                            <li>
+                              Followed best design principles with Effective
+                              Unit Testing with Junit and Karma.
+                            </li>
+                            <li>
+                              Worked on fast paced Agile methodology with SCRUM
+                              to deliver rapid productivity in development with
+                              tools like JIRA, MURAL and POKER.
+                            </li>
+                            <li>
+                              Experience in configuring CI/CD pipeline using
+                              JENKINS to update DOCKER images.
+                            </li>
+                          </ul>
+                        </div>
+
                         <div class="title">Tech stack</div>
                         <div class="skills">
                           <ul>
-                            <li>Angular</li>
+                            <li>React</li>
                             <li>Java 1.8</li>
                             <li>Spring boot</li>
                             <li>Restful API</li>
@@ -169,29 +408,101 @@
                         </div>
                       </div>
                     </div>
-                </div>
-                <div class="period">
-                  <span>2020 </span>
-                  <span>2018 </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="work">
-              <span class="line"></span>
-              <div class="content">
-                <div class="company">
-                 <div class="name">Next Sphere Technologies</div> 
-                 <div class="designation"> - Software Engineer</div>
+              <div class="work">
+                <span class="line"></span>
+                <div class="period">
+                  <span>2018 - </span>
+                  <span>2015 </span>
                 </div>
-                <div class="exp-info">
+                <div class="content">
+                  <div class="company">
+                    <div class="name">
+                      <span> Next Sphere Technologies India Pvt Ltd </span>
+                      <span> - Chennai, India. </span>
+                    </div>
+                    <div class="designation">- Software Engineer</div>
+                  </div>
+                  <div class="exp-info">
                     <div class="title">Projects</div>
                     <div class="projects">
                       <div class="project">
-                        <div class="title">Titan</div>
-                        <div class="info">
-                          An Online Health Care Products Store, This Platform is a software suite of products to build and operate the multi-level marketing (MLM) business which is built from the ground up using Microservice based Architecture. It is a cluster of portals having independent microservices each like Shopping Sites, Stores, Product Catalogs, Customer Management, Order Management, Content management (CMS), Single Sign On (SSO), Payment Systems in worldwide markets
+                        <div class="title-accordion">
+                          <p class="title">
+                            <span class="sub-title"> Client : </span> Forever
+                            Living Products International, Inc
+                          </p>
+                          <span> <i class="fa fa-chevron-down"></i></span>
                         </div>
-                        
+                        <div class="client-info">
+                          <p class="mb-1">
+                            Website :
+                            <a
+                              class="vg-link"
+                              target="_blank"
+                              href="https://foreverliving.com/"
+                            >
+                              foreverliving.com
+                            </a>
+                          </p>
+                          <p>
+                            Titan - An Online Health Care Products Store, This
+                            Platform is a software suite of products to build
+                            and operate the multi-level marketing (MLM) business
+                            which is built from the ground up using Microservice
+                            based Architecture. It is a cluster of portals
+                            having independent microservices each like Shopping
+                            Sites, Stores, Product Catalogs, Customer
+                            Management, Order Management, Content management
+                            (CMS), Single Sign On (SSO), Payment Systems in
+                            worldwide markets.
+                          </p>
+                        </div>
+                        <div class="handson-accordion">
+                          <p class="title">Hands-On</p>
+                          <span> <i class="fa fa-chevron-down"></i></span>
+                        </div>
+                        <div class="handson-info">
+                          <ul>
+                            <li>
+                              Took ownership on managing team on building
+                              Content Management System which is used to manage
+                              content like images, videos, static pages, cards
+                              and translations by using workflow created using
+                              BPMN Tools.
+                            </li>
+                            <li>
+                              Worked on building Angular application to manage
+                              the contents based on the flow driven by workflow.
+                            </li>
+                            <li>
+                              Worked on developing REST Back End Systems
+                              applying Object Oriented Programming Principles
+                              and REST Principles.
+                            </li>
+                            <li>
+                              Worked on building Modern REST APIs with Spring
+                              Boot and documenting with Spring REST Docs.
+                            </li>
+                            <li>
+                              Followed best design principles with Effective
+                              Unit Testing with JUnit and Mockito Frameworks and
+                              POSTMAN REST Tool
+                            </li>
+                            <li>
+                              Involved in effective Integration Testing
+                              strategies by collaborating all micro services,
+                              dependencies, and gaps in Features
+                            </li>
+                            <li>
+                              Worked on fast paced Agile methodology with SCRUM
+                              to deliver rapid productivity in development. .
+                            </li>
+                          </ul>
+                        </div>
+
                         <div class="title">Tech stack</div>
                         <div class="skills">
                           <ul>
@@ -204,83 +515,52 @@
                           </ul>
                         </div>
                       </div>
-                      <div class="project">
-                        <div class="title">WORKSPACE</div>
-                        <div class="info">
-                          Workspace is an In-house Web App built as a Product which helps to give access to organizational Activities such as Leave management, Employees hierarchy Chart, News Feed, Appraisal Review, Time Sheet Management, Notifications, employee Communication, Peer Appreciations, Project Allocations and Sprint task Tracking. 
-                        </div>
-                        
-                        <div class="title">Tech stack</div>
-                        <div class="skills">
-                          <ul>
-                            <li>AngularJs</li>
-                            <li>Java 1.8</li>
-                            <li>Spring boot</li>
-                          </ul>
-                        </div>
-                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <div class="work">
+                <span class="line"></span>
                 <div class="period">
-                  <span>2018 </span>
-                  <span>2015 </span>
+                  <span> Begining * </span>
+                  <span> </span>
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Section Starts -->
-
-    <section id="contact" class="contact">
-      <div class="title"> Contact </div>
-      <div class="contact-container">
-        <div class="left">
-          <form name="contact-form">
-            <div class="heading">Intresting Profile? Send me a text</div>
-            <div class="form-fields">
-              <input type="text" placeholder="Name" />
-              <input type="text" placeholder="Email" />
-              <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-              <div>
-                <a class="btn-link" href=""> Send </a>
+      <section id="contact" class="contact">
+        <div class="section__header">
+          <span class="t1"> Reach </span>
+          <h3>Contact</h3>
+        </div>
+        <div class="contact-container">
+          <div class="left">
+            <form name="contact-form">
+              <div class="heading">Intresting Profile? Send me a text</div>
+              <div class="form-fields">
+                <input type="text" id="txt_name" placeholder="Name" />
+                <input type="email" id="txt_sender_email" placeholder="Email" />
+                <textarea
+                  name="email_msg"
+                  id="txt_email_msg"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+                <div id="post-msg">
+                  <button id="btn_send_email" type="button" class="vg-btn primary"> Send </button>
+                </div>
               </div>
-            </div>
-          </form>
-        </div>
-        <div class="right">
-          <div class="heading">Get in touch</div>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/magesh-v-g-9a8bb588/" target="_blank">
-              <span class="fa fa-linkedin"></span> LinkedIn
-            </a>            
-            <a href="https://www.facebook.com/magesh.vg/" target="_blank">
-              <span class="fa fa-facebook"></span> Magesh Vg
-            </a>
-            <a href="mailto:vgmagesh5@gmail.com" target="_self">
-              <span class="fa fa-envelope"></span> vgmagesh5@gmail.com
-            </a>
-            <a  href="tel:+91-9566824544 target="_blank">
-              <span class="fa fa-mobile"></span> +91-9566824544
-            </a>
+            </form>
           </div>
         </div>
-      </div>
-
+      </section>
     </section>
-
     <footer>
-      <span> Last updated on Nov'2020.</span>
+      <span> Last updated on Sep'2022.</span>
     </footer>
-    
-
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" ></script>
-    <script src="./scripts.min.js"></script>
   </body>
 </html>
