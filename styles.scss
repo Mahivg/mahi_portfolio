@@ -487,6 +487,17 @@ section.contact {
   }
 }
 
+footer {
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: end;
+  background-color: $primary_green;
+  span {
+    margin-bottom: 10px;
+    color: $primary_white;
+  }
+}
+
 
 /* Global Styles */
 
